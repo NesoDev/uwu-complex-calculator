@@ -1,7 +1,7 @@
 import { createStore } from 'vuex'
 const backendUrl = "http://127.0.0.1:3000"
 const openaiUrl = "https://api.openai.com/v1/chat/completions"
-
+const openaiApiKey = process.env.VUE_APP_OPENAI_API_KEY
 export default createStore({
   state: {
     evaluatingCode: false,
