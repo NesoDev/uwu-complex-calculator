@@ -14,7 +14,7 @@
       <h3>Resultado del Análisis:</h3>
       <p>Complejidad: <strong>{{ result.complexity }}</strong></p>
     </div>
-
+    
     <div v-if="error" class="error">
       {{ error }}
     </div>
