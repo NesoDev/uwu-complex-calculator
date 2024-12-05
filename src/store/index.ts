@@ -42,7 +42,7 @@ export default createStore({
             'Authorization': `Bearer ${openaiApiKey}`
           },
           body: JSON.stringify({
-            model: 'gpt-3',
+            model: 'gpt-3.5-turbo',
             messages: [
               {
                 role: "system",
